@@ -53,7 +53,6 @@ docker-compose up --build
 # 3. Open Flink SQL CLI
 docker exec -it sql-client /opt/flink/bin/sql-client.sh
 
----
 
 # 👤 Author
 Omar Oun
