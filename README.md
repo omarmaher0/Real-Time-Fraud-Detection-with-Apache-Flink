@@ -6,14 +6,20 @@ A clean and minimal **real-time fraud detection pipeline** using **Apache Flink 
 
 ## 📁 Project Structure
 
+```
+.
 ├── data/
-│ ├── input/transactions.json → Source transactions
-│ └── output/fraud.json → Filtered fraudulent data
-├── settings/ → SQL DDL scripts
-├── plugins/ → Flink connectors (e.g. Kafka in future)
-├── sql-client/ → Dockerfile for SQL Client
-├── docker-compose.yml → All services configured here
-└── README.md
+│   ├── input/
+│   │   └── transactions.json       # JSON file as source
+│   └── output/
+│       └── fraud.json              # JSON file as sink
+├── settings/                       # SQL DDL files (CREATE TABLE statements)
+├── plugins/                        # Optional: for connectors (e.g., Kafka)
+│   └── kafka/                      # (future use)
+├── sql-client/                     # Custom Dockerfile for Flink SQL CLI
+├── docker-compose.yml              # Main Docker orchestration file
+└── README.md                       # Project documentation
+```
 
 ---
 
