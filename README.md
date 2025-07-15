@@ -5,6 +5,7 @@ A clean and minimal **real-time fraud detection pipeline** using **Apache Flink 
 ---
 
 ## 📁 Project Structure
+
 ├── data/
 │ ├── input/transactions.json → Source transactions
 │ └── output/fraud.json → Filtered fraudulent data
