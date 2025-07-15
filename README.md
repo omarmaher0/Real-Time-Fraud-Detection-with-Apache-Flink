@@ -54,8 +54,9 @@ docker-compose up --build
 docker exec -it sql-client /opt/flink/bin/sql-client.sh
 
 
-# 👤 Author
-Omar Oun
-📎 [![LinkedIn](https://img.shields.io/badge/Omar%20Oun-LinkedIn-blue)](https://www.linkedin.com/in/omaroun/)
+### 🔗 Connect with me:
+
+[![LinkedIn](https://img.shields.io/badge/Omar%20Oun-LinkedIn-blue)](https://www.linkedin.com/in/omaroun/)
+
 💻 GitHub: @omarmaher0
 
